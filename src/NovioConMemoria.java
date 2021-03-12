@@ -20,8 +20,7 @@ public class NovioConMemoria extends Novio {
 
     @Override
     Persona escucha(String palabras) throws Exception {
-        if (palabras.equals(escuchado))
-            throw new Exception(nombre + " no aguanta más: Límite superado");
+
         escuchado = palabras;
         return super.escucha(palabras);
     }
