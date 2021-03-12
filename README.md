@@ -30,3 +30,8 @@ Y comprueba que funciona.
 Establece un diálogo _eterno_ entre dos `Personas` o `Novios`en el que se simula que los participantes colaboran en una discusión o intercambio de mensajes.  
 **Nota**: Si puedes utiliza `this` en el diálogo.
 **Objetivo**: Entender Clases, Objetos y envío de mensajes entre Objetos.
+
+2.- `El acuerdo`   
+Modifica el diálogo anterior y simula la discusión hasta que dos mensajes consecutivos, y específicos (indicados por código) son los escuchados por los novios y esperados para finalizar la discusión.   
+**Nota**: No importa el orden en el que se dicen los mensajes ni quien lo dice.   
+**Objetivo**: Presentar la opción de un control específico del diálogo. Y desglosar las reponsabilidades de la aplicación. 
