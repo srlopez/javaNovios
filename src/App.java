@@ -5,11 +5,16 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
+        String m1 = "uno";
+        String m2 = "dos";
+        
         Persona a = new Novio("Jhon");
         Persona b = new NovioConMemoria("Pocahontas");
+        Celestina c = new Celestina("Jurjo", m1, m2);
+
 
         // Creamos un escenario para nuestros actores
-        Escenario escenario = new Escenario(a, b);
+        Escenario escenario = new Escenario(a, b, c);
 
         //Lanzamos el diálogo que nos interese parametrizado
         escenario.dialogoDeAcuerdo("uno", "dos");

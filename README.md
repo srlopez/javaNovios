@@ -53,3 +53,10 @@ Hemos visto que los diálogos van cambiando, e inconscientemente entendemos que 
 **Nota**: Cada clase con su responsbilidad. El del Escenario es lanzar algún tipo de diálogo
 **Objetivo**: Entender mas sobre clases y responsabilidades.  
 **Práctica**: Añade algún método más a la clase Escenario.
+
+6.- `La Celestina`   
+Integra en el diálogo una tercera Persona que repite los mensajes que se trasmiten entre los participantes, y los distorsiona de tal manera que puede alterar el mensaje convirtiendolo en uno de los acordados para finalizar.  
+**Nota**: ¿Una nueva Clase?. Principio de una única responsabilidad. 
+La Celestina no muestra ni lo que escucha, ni lo que dice. Es muy silenciosa.   
+El Escenario tambien cambia.   
+**Objetivo**: Ver que entre objetos puede existir una _trasformación de mensajes_.
