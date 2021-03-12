@@ -1,7 +1,11 @@
 ## Objetivo
 Crear una arquitectura básica, pero completa de una aplicación diseñada con POO.
 Y para ello empezar a entender cómo se puede `pensar` en Objetos y Clases. Y llevar a concretar un ejemplo con un Controlador (MVC) y un Repositorio aplicado mediante DI.     
->¡¡¡Dios nos coja confesados!!!    
+>¡¡¡Dios nos coja confesados!!!   
+
+```diff
++He puesto la evolución del proyecto como ramas paso0, paso1,... por ahora hasta el 6, así cuando os descarguéis el ejemplo podeís ver como van evolucionando las cosas
+```
 
 ### Enunciado
 <br/>
