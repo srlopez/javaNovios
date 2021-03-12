@@ -12,7 +12,6 @@ public class App {
         String m2 = "yo tambien";
 
         dialogo: while (true) {
-            try {
                 da = a.dice();
                 b.escucha(da);
 
@@ -27,13 +26,10 @@ public class App {
                 if ((da.contains(m1) && db.contains(m2)) || (da.contains(m2) && db.contains(m1)))
                     break;
 
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-                break dialogo;
-            }
+    
 
         }
 
-        System.out.println("No sabemos cómo acaba el tema!");
+        System.out.println("Fin ...");
     }
 }

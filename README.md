@@ -42,7 +42,3 @@ Uno de los participantes repite siempre lo que dijo anteriormente, antes de volv
 **Objetivo**: Entender la herencia. Encapsulación. Sobreescritura. Principio Open/Close.   
 **Práctica**: Sobreescribe el método de escucha para que recuerde lo que recibió.
 
-4.- `Abrupto terminar. Límite alcanzado`  
-Toda discusión tiene un límite y esto se produce cuando uno de los participantes _con memoria_ escucha un mensaje (_por segunda vez_) y esto, le produce tanto rechazo que revienta el diálogo.  
-**Nota**: Aquí hay que utilizar Excepciones y capturarlas. Entender cómo esto nos obliga a reescribir código y a pensarlas desde un comienzo si queremos tenerlas encuenta.(en Java)    
-**Objetivo**: Entender las interrupciones/excepciones y capturarlas adecuadamente.  

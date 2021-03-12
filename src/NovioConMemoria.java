@@ -20,7 +20,6 @@ public class NovioConMemoria extends Novio {
 
     @Override
     Persona escucha(String palabras) throws Exception {
-
         escuchado = palabras;
         return super.escucha(palabras);
     }
