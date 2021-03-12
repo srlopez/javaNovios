@@ -60,3 +60,18 @@ Integra en el diálogo una tercera Persona que repite los mensajes que se trasmi
 La Celestina no muestra ni lo que escucha, ni lo que dice. Es muy silenciosa.   
 El Escenario tambien cambia.   
 **Objetivo**: Ver que entre objetos puede existir una _trasformación de mensajes_.
+
+
+7.- `El Diario`  
+Uno de los participantes escribe un diario en el que anota lo que escucha y lo que dice.  
+**Nota**: El diario es un archivo en disco. Ahora utilizaremos librerías de bajo nivel del Filesytem para escribir en el disco.   
+**Objetivo**: Ampliar la funcionalidad.
+
+8.- `El Geek`    
+Vaya! Un participante se nos ha vuelto Geek! y escribe el Diario en una BD SQL.
+En fin, para qué decir nada. Uno de los participantes escribe en un archivo, y otro en una base de datos SQL!.   
+**Nota**: El profe no se ha vuelto loco.  
+**Objetivo**: Entender de nuevo la Inyección de Dependencia, y las Interfaces.
+
+9.- `Establecer paralelismos con una aplicación `**DE VERDAD**  
+Esperamos que esto sirva para algo.
