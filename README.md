@@ -26,3 +26,7 @@ Y comprueba que funciona.
 **Objetivo**: Entender Clases, Objetos. Y los principios de Coherencia y responsabilidad única del diseño de clases.   
 **Práctica**: Trás crear la persona demuestra que puedes crear un `Novio` (con algún _atributo_ más, como la _intensidad_ de su amor)
 
+1.- `Los Novios enfadados`   
+Establece un diálogo _eterno_ entre dos `Personas` o `Novios`en el que se simula que los participantes colaboran en una discusión o intercambio de mensajes.  
+**Nota**: Si puedes utiliza `this` en el diálogo.
+**Objetivo**: Entender Clases, Objetos y envío de mensajes entre Objetos.
