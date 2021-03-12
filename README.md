@@ -47,3 +47,9 @@ Toda discusión tiene un límite y esto se produce cuando uno de los participant
 **Nota**: Aquí hay que utilizar Excepciones y capturarlas. Entender cómo esto nos obliga a reescribir código y a pensarlas desde un comienzo si queremos tenerlas encuenta.(en Java)    
 **Objetivo**: Entender las interrupciones/excepciones y capturarlas adecuadamente.  
 **Práctica**: Ya hemos hecho mucho con el ciclo de conversación. Trata de sacar el diálogo a un método, y mejor aún a una clase.
+
+5.- `Introducimos una nueva clase el Escenario donde transcurren los diálogos`  
+Hemos visto que los diálogos van cambiando, e inconscientemente entendemos que este dialogo tiene un protagonismo propio. Extraemos toda esa funcionalida en una nueva clase que llamamos Escenario (_No se me ocurre otro nombre_).
+**Nota**: Cada clase con su responsbilidad. El del Escenario es lanzar algún tipo de diálogo
+**Objetivo**: Entender mas sobre clases y responsabilidades.  
+**Práctica**: Añade algún método más a la clase Escenario.
