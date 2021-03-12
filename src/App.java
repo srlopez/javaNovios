@@ -2,8 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        Novio a = new Novio("Esperanza", 7);
-        Persona b = new Novio("Luis", 8);
+        Novio a = new Novio("Aroa");
+        NovioConMemoria b = new NovioConMemoria("Jon");
 
         String da = ""; // dicho por A
         String db = ""; // dicho por B
@@ -11,16 +11,7 @@ public class App {
         String m1 = "te quiero";
         String m2 = "yo tambien";
 
-        // coloco una etiqueta 'dialogo' para indicar a qué ciclo 
-        // salgo cuando invoco break
-        // No es necesario ya que sólo manejamos un ciclo
-        // Pero es para que lo conozcáis.
-
         dialogo: while (true) {
-            // a.escucha(b.escucha(a.dice()).dice());
-            // Para salir del ciclo tenemos que recoger los mensjaes que se dicen
-            // y mirar si cumplen las condiciones de salida del ciclo
-
             da = a.dice();
             b.escucha(da);
 

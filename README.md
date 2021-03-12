@@ -35,3 +35,9 @@ Establece un diálogo _eterno_ entre dos `Personas` o `Novios`en el que se simul
 Modifica el diálogo anterior y simula la discusión hasta que dos mensajes consecutivos, y específicos (indicados por código) son los escuchados por los novios y esperados para finalizar la discusión.   
 **Nota**: No importa el orden en el que se dicen los mensajes ni quien lo dice.   
 **Objetivo**: Presentar la opción de un control específico del diálogo. Y desglosar las reponsabilidades de la aplicación. 
+
+3.- `La memoria`   
+Uno de los participantes repite siempre lo que dijo anteriormente, antes de volver a decir algo nuevo.   
+**Nota**: Reescribe Persona/Novio o inventa algo nuevo.   
+**Objetivo**: Entender la herencia. Encapsulación. Sobreescritura. Principio Open/Close.   
+**Práctica**: Sobreescribe el método de escucha para que recuerde lo que recibió.
