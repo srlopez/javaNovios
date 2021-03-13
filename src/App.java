@@ -10,15 +10,16 @@ public class App {
         
         Persona a = new Novio("Jhon");
         Persona b = new NovioConMemoria("Pocahontas");
-        Celestina c = new Celestina("Jurjo", m1, m2);
+        Celestina c = new Celestina("Jaime", m1, m2);
 
 
         // Creamos un escenario para nuestros actores
-        Escenario escenario = new Escenario(a, b, c);
+        Escenario escenario = new Escenario(a, b);
 
         //Lanzamos el diálogo que nos interese parametrizado
-        escenario.dialogoDeAcuerdo("uno", "dos");
         //escenario.dialogoInfinito();
+        //escenario.dialogoDeAcuerdo(m1, m2);
+        escenario.dialogoConCelestina(m1, m2, c);
 
         System.out.println("Goodbye, World!");
     }
