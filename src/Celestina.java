@@ -1,5 +1,11 @@
+// public class Celestina  {
+//   String escuchaYDice(String escuchado){
+//     return adornar(escuchado);
+//   }
+// }
+    
 public class Celestina extends Persona {
-    String escuchado = "";
+        String escuchado = "";
     String m1 = "";
     String m2 = "";
 

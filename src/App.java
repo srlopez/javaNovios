@@ -14,11 +14,12 @@ public class App {
 
 
         // Creamos un escenario para nuestros actores
-        Escenario escenario = new Escenario(a, b, c);
+        Escenario escenario = new Escenario(a, b);
 
         //Lanzamos el diálogo que nos interese parametrizado
-        escenario.dialogoDeAcuerdo("uno", "dos");
         //escenario.dialogoInfinito();
+        escenario.dialogoDeAcuerdo("uno", "dos");
+        escenario.dialogoConCelestina("uno", "dos", c);
 
         System.out.println("Goodbye, World!");
     }
