@@ -65,6 +65,8 @@ La Celestina no muestra ni lo que escucha, ni lo que dice. Es muy silenciosa.
 El Escenario tambien cambia.   
 **Objetivo**: Ver que entre objetos puede existir una _trasformación de mensajes_.
 
+6.1.- `Uno de los novios escoge el tipo de diálogo`
+Para que los diálogos no se queden en un conjunto de métodos en el Escenario, haced que uno de los participantes indique a través de dice cual es el diálogo en el que quiere intervenir. (Es una simulación de un menú). 
 
 7.- `El Diario`  
 Uno de los participantes escribe un diario en el que anota lo que escucha y lo que dice.  
