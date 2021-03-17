@@ -19,7 +19,8 @@ public class App {
         //Lanzamos el diálogo que nos interese parametrizado
         //escenario.dialogoInfinito();
         //escenario.dialogoDeAcuerdo(m1, m2);
-        escenario.dialogoConCelestina(m1, m2, c);
+        //escenario.dialogoConCelestina(m1, m2, c);
+        escenario.run(m1, m2, c);
 
         System.out.println("Goodbye, World!");
     }
